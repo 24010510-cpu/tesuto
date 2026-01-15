@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>コぺドラ | TOP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1><img src="css/images/log.png" alt="コぺドラロゴ" class="header-logo">コぺドラ  in四国</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">TOPページ</a></li>
+                <li><a href="drive_weather.html">ドライブ日和</a></li>
+                <li><a href="drive_map.html">ドライブマップ</a></li>
+                <li><a href="drive_garage.html">ドライブガレージ</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    
+        <h2>ようこそ！ 四国を巡るドライブの旅へ</h2>
+        
+        <div class="slideshow-container">
+            
+            <div class="mySlides fade">
+                <img src="css/images/raihu.jpg" style="width:100%" alt="スライド1：ライフ">
+                <div class="text">四季感じながらドライブし</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="css/images/zinnsei.jpg" style="width:100%" alt="スライド2：人生">
+                <div class="text">四国を巡るドライブの旅へ</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="css/images/sto.jpg" style="width:100%" alt="スライド3：鳴門">
+                <div class="text">夢のコペンドライブをお楽しみください！</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+         <span class="dot" onclick="currentSlide(1)"></span> 
+         <span class="dot" onclick="currentSlide(2)"></span> 
+         <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+        <p>四国（徳島、香川、高知、愛媛）の素晴らしい自然、歴史、グルメを楽しめる厳選されたドライブスポットをご紹介します。次の週末は、コペンに乗って四国の四季折々の自然を肌で感じながら駆け巡りましょう！</p>
+        
+        <h3>サイトコンテンツ</h3>
+        <ul>
+            <li> ドライブ日和 : ドライブに適した気候や、季節ごとの気を付けるべきところを提案、イベント情報を掲載。</li>
+            <li> ドライブマップ : 徳島、香川、高知、愛媛の県別スポットを地図情報と共に紹介。</li>
+            <li> ドライブガレージ : 信頼できるショップの紹介や、コペンオーナー様のコペンとの思い出こちらで掲載。</li>
+            <li> お問い合わせ : サイトに関するご意見や情報提供はこちらから。</li>
+        </ul>
+
+       
+    </main>
+
+    <footer>
+       <div class="related-links">
+        <h4>関連サイト</h4>
+        <ul>
+            <li>
+                <a href="https://copen.daihatsu.co.jp/copensite" target="_blank" class="link-image-button">
+                    <img src="css/images/kv.jpg" alt="ダイハツ コペン 公式サイトへ移動" class="full-button-img">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.awanavi.jp/archives/modelcourse/541" target="_blank" class="link-image-button">
+                    <img src="css/images/awa.jpg" alt="四国観光情報サイトへ移動" class="full-button-img">
+                </a>
+            </li>
+        </ul>
+    </div>
+        <p>&copy; 2025 コぺドラin四国 All Rights Reserved.</p>
+    </footer>
+    <script src="css/js/slideshow.js"></script>
+</body>
+</html>
