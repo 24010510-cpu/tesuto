@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>コぺドラ | 日和</title>
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1><img src="css/images/log.png" alt="コぺドラロゴ" class="header-logo">コぺドラ in四国</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">TOPページ</a></li>
+                <li><a href="drive_weather.html">ドライブ日和</a></li>
+                <li><a href="drive_map.html">ドライブマップ</a></li>
+                <li><a href="drive_garage.html">ドライブガレージ</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       <h2>    ドライブ日和</h2>
+       <div class="advanced-slideshow-container">
+        
+        <div class="slide-content-area">
+            
+            <div class="advanced-mySlides fade" data-slide="1">
+                <img src="css/images/haru.jpg" alt="春のドライブ風景">
+                <div class="slide-overlay-text">
+                    <p class="slide-title">春のドライブ</p>
+                    <p class="slide-description">暖かな日差しの中、桜を楽しみながら新緑のトンネルを抜ける爽快なドライブが楽しめます。特に山間部の桜並木がおすすめです。</p>
+                </div>
+            </div>
+
+            <div class="advanced-mySlides fade" data-slide="2">
+                <img src="css/images/syaka.jpg" alt="初夏のドライブ風景">
+                <div class="slide-overlay-text">
+                    <p class="slide-title">初夏ドライブのススメ</p>
+                    <p class="slide-description">空の青と木々の緑が鮮やかさを増すこの季節には、爽やかに薫る風を切ってドライブを楽しみたい。海沿いの涼しいルートが特におすすめです。</p>
+                </div>
+            </div>
+
+            <div class="advanced-mySlides fade" data-slide="3">
+                <img src="css/images/naruto.jpg" alt="夏のドライブ風景">
+                <div class="slide-overlay-text">
+                    <p class="slide-title">夏のドライブ</p>
+                    <p class="slide-description">海岸線を走り、海水浴場やマリンアクティビティを楽しむ拠点へ。日中は日差しが強いため、朝夕の涼しい時間帯の走行が快適です。</p>
+                </div>
+            </div>
+            
+            <div class="advanced-mySlides fade" data-slide="4">
+                <img src="css/images/aki.jpg" alt="秋のドライブ風景">
+                <div class="slide-overlay-text">
+                    <p class="slide-title">秋のドライブ</p>
+                    <p class="slide-description">四国は紅葉の名所が多く、山々を赤や黄色に染める景色が楽しめます。路面の落ち葉や霧に注意し、安全運転を心がけましょう。</p>
+                </div>
+            </div>
+            
+            <div class="advanced-mySlides fade" data-slide="5">
+                <img src="css/images/huyu.jpg" alt="冬のドライブ風景">
+                <div class="slide-overlay-text">
+                    <p class="slide-title">冬のドライブ</p>
+                    <p class="slide-description">雪化粧した幻想的な山々の風景を眺めることができます。凍結路面や積雪に注意し、必ずスタッドレスタイヤなどの準備をしてください。</p>
+                </div>
+            </div>
+            
+            <div class="advanced-mySlides fade" data-slide="6">
+                <img src="css/images/nennkann.jpg" alt="年間を通じてのドライブ風景">
+                <div class="slide-overlay-text">
+                    <p class="slide-title">年間を通じて</p>
+                    <p class="slide-description">年間を通してコペンでのドライブを楽しめるよう、天候に合わせた情報を提供しています。季節を問わず、安全で楽しい旅を！</p>
+                </div>
+            </div>
+
+                <div class="slide-content-area">
+                 <a class="prev-nav" onclick="plusSlides(-1, 1)">&#10094;</a> 
+                 <a class="next-nav" onclick="plusSlides(1, 1)">&#10095;</a>
+                </div>
+        </div>
+        
+        <div class="tab-navigation">
+            <button class="tab-button active" onclick="currentSlide(1, 1)">春</button>
+            <button class="tab-button" onclick="currentSlide(2, 1)">初夏</button>
+            <button class="tab-button" onclick="currentSlide(3, 1)">夏</button>
+            <button class="tab-button" onclick="currentSlide(4, 1)">秋</button>
+            <button class="tab-button" onclick="currentSlide(5, 1)">冬</button>
+            <button class="tab-button" onclick="currentSlide(6, 1)">年間</button>
+        </div>
+      </div>
+      <div class="drive-navi-info">
+            <h3> 今年のドライブナビ</h3>
+            <div class="navi-cards-container">
+                
+                <div class="navi-card">
+                    <span class="navi-icon">
+                        <img src="css/images/unnamed.png" alt="イベントアイコン" class="card-icon-img">
+                    </span>
+                    <h4>コペンオーナーズイベント</h4>
+                    <p>【静岡】5/16に開催！富士スピードウェイにてオーナーとの交流イベント</p>
+                </div>
+                
+                <div class="navi-card">
+                    <span class="navi-icon">
+                        <img src="css/images/ki.png" alt="道の駅アイコン" class="card-icon-img">
+                    </span>
+                    <h4>道の駅 特集</h4>
+                    <p>【徳島】人気道の駅「くるくるなると」の最新スイーツ＆お土産情報をご紹介！</p>
+                </div>
+                
+                <div class="navi-card">
+                    <span class="navi-icon">
+                       <img src="css/images/03.png" alt="注意アイコン" class="card-icon-img">
+                    </span>
+                    <h4>通行止め情報</h4>
+                    <p>【愛媛】石鎚スカイラインは冬季（11月下旬～4月中旬頃）は積雪のため通行止め<br>
+                        夜間（日没～日の出）は常時通行止めで、落石防止のため異常気象時（大雨など）も通行止です。
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <h3>季節ごとの注意点</h3>
+        <ul>
+            <li> 春：花粉や急な天候変化に注意し、オープンエアを楽しむ。</li>
+            <li> 夏：熱中症対策と、突然の夕立に備えた準備を。</li>
+            <li> 秋：路面の落ち葉や霧に注意。日が落ちるのが早いため早めの帰宅を推奨。</li>
+            <li> 冬：凍結路面や積雪に注意。必ずスタッドレスタイヤなどの準備を。</li>
+        </ul>
+    </main>
+
+    <footer>
+       <div class="related-links">
+        <h4>関連サイト</h4>
+        <ul>
+            <li>
+                <a href="https://copen.daihatsu.co.jp/copensite" target="_blank" class="link-image-button">
+                    <img src="css/images/kv.jpg" alt="ダイハツ コペン 公式サイトへ移動" class="full-button-img">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.awanavi.jp/archives/modelcourse/541" target="_blank" class="link-image-button">
+                    <img src="css/images/awa.jpg" alt="四国観光情報サイトへ移動" class="full-button-img">
+                </a>
+            </li>
+        </ul>
+    </div>
+        <p>&copy; 2025 コぺドラin四国 All Rights Reserved.</p>
+    </footer>
+    <script src="css/js/advanced_slideshow.js"></script>
+</body>
+</html>

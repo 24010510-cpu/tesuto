@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>コぺドラ | ガレージ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1><img src="css/images/log.png" alt="コぺドラロゴ" class="header-logo">コぺドラ in四国</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">TOPページ</a></li>
+                <li><a href="drive_weather.html">ドライブ日和</a></li>
+                <li><a href="drive_map.html">ドライブマップ</a></li>
+                <li><a href="drive_garage.html">ドライブガレージ</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+      <p>ここは、コペンとの旅の思い出を共有し、コペンライフを支えてくれる信頼できるプロショップを紹介する場所です。あなたのコペンライフをさらに豊かにしましょう！</p>
+       
+       <h3>🤝 信頼できるショップ一覧</h3>
+       <div class="shop-list">
+           
+           <div class="shop-card">
+               <img src="css/images/ogp.jpg" alt="ショップ外観" class="shop-image">
+               <div class="shop-info">
+                   <h4>【千葉】コペン専門店「わだち」</h4>
+                   <p class="shop-specialty">専門分野：カスタム、メンテナンス、チューニング、 修理、 販売</p>
+                   <p class="shop-desc">“わだち”は、ダイハツのコペン好きな整備士が運営している自動車整備工場です</p>
+                   <a href="https://wadachi.net/" target="_blank" class="shop-link-button">公式サイトを見る</a>
+               </div>
+           </div>
+           
+           <div class="shop-card">
+               <img src="css/images/koo.jpg" alt="別のショップ外観" class="shop-image">
+               <div class="shop-info">
+                   <h4>も。ファク</h4>
+                   <p class="shop-specialty">専門分野：カスタム、メンテナンス、チューニング、 修理、故障診断、ドレスアップ</p>
+                   <p class="shop-desc">オープンカー全般に強く、特にボディカラーや内装のドレスアップに定評があります。四国各地からの依頼多数。</p>
+                   <a href="https://mo-fac.com/" target="_blank" class="shop-link-button">公式サイトを見る</a>
+               </div>
+           </div>
+           
+           </div>
+
+       <hr> 
+       
+       <h3>コペンリコレクション</h3>
+       <div class="owner-voices">
+           
+           <div class="voice-post">
+               <div class="post-header">
+                   <span class="owner-name">デカ  (L880K)</span>
+                   <span class="post-date">投稿日：2025/12/01</span>
+               </div>
+               <p class="voice-text">初めてのオープンカーでしたが、Tガレージさんの丁寧な説明とメンテナンスのおかげで、安心して四国一周を達成できました！特に阿蘇の山道は最高でした！</p>
+               <img src="css/images/lo.jpg" alt="投稿写真：コペンと風景" class="post-image">
+           </div>
+           
+           <div class="voice-post">
+               <div class="post-header">
+                   <span class="owner-name">マーモット (LA400K)</span>
+                   <span class="post-date">投稿日：2025/11/25</span>
+               </div>
+               <p class="voice-text">Mファクトリーで内装を赤に張り替えてもらいました。週末の瀬戸内ドライブがさらに楽しくなりました！コペンは本当に人生を変える車です。</p>
+               <img src="css/images/ti.jpg" alt="投稿写真：コペンの内装" class="post-image">
+           </div>
+           
+       </div>
+       
+       <div class="voice-submission-prompt">
+           <h4>あなたのコペンとの思い出を共有しませんか？</h4>
+           
+           <form class="voice-form">
+               <div class="form-group">
+                   <label for="ownerName">ニックネーム / 車種:</label>
+                   <input type="text" id="ownerName" name="ownerName" placeholder="例: ペン吉@徳島 (L880K)" required>
+               </div>
+
+               <div class="form-group">
+                   <label for="postText">エピソードを語ってください:</label>
+                   <textarea id="postText" name="postText" rows="6" placeholder="例: 鳴門の渦潮をバックに愛車と記念撮影しました！..." required></textarea>
+               </div>
+               
+               <div class="form-group">
+                   <label for="postImage">写真 (最大1枚):</label>
+                   <input type="file" id="postImage" name="postImage" accept="image/*">
+               </div>
+               
+               <div class="form-group">
+                   <p class="warning-text">※ このフォームはサイトの見た目のみであり、入力内容や画像ファイルは記録されません。</p>
+               </div>
+               
+               <button type="submit" class="submit-button" disabled>投稿する (※機能停止中)</button>
+           </form>
+       </div>
+    </main>
+    
+    <footer>
+       <div class="related-links">
+        <h4>関連サイト</h4>
+        <ul>
+            <li>
+                <a href="https://copen.daihatsu.co.jp/copensite" target="_blank" class="link-image-button">
+                    <img src="css/images/kv.jpg" alt="ダイハツ コペン 公式サイトへ移動" class="full-button-img">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.awanavi.jp/archives/modelcourse/541" target="_blank" class="link-image-button">
+                    <img src="css/images/awa.jpg" alt="四国観光情報サイトへ移動" class="full-button-img">
+                </a>
+            </li>
+        </ul>
+    </div>
+        <p>&copy; 2025 コぺドラin四国 All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
